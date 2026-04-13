@@ -2,8 +2,7 @@ FROM tomcat:9-jdk8
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 
-COPY --from=build /app/gameoflife-web/target/*.war \
-    /usr/local/tomcat/webapps/ROOT.war
+COPY target/*.war /usr/local/tomcat/webapps/ROOT.war
 
 EXPOSE 8080
 
