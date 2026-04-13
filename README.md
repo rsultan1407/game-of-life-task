@@ -16,7 +16,7 @@ This project demonstrates a complete CI/CD pipeline using Jenkins and Docker for
 ### 2. Git Operations
 
 - Cloned repository
-- Created feature branch
+- Created main branch
 - Pushed changes
 
 ### 3. Jenkins Setup
@@ -68,8 +68,6 @@ This project demonstrates a complete CI/CD pipeline using Jenkins and Docker for
 
 ##  Screenshots
 
-(Add screenshots here)
-
 * Jenkins Node Configuration
 * Pipeline Execution
 * Docker Container Running
@@ -79,4 +77,4 @@ This project demonstrates a complete CI/CD pipeline using Jenkins and Docker for
 
 ## 🌐 Application Access
 
-http://<EC2-IP>:8080
+http://13.220.200.56:9292
